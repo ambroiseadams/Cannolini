@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cannolini – Site Vitrine</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #faf7f2; }
+    header { background: #d4a373; color: white; padding: 1.2rem; text-align: center; }
+    nav { background: #faedcd; padding: 1rem; text-align: center; }
+    nav a { margin: 0 1rem; color: #8b5e34; font-weight: bold; text-decoration: none; }
+    section { padding: 2rem; max-width: 800px; margin: auto; }
+    h2 { color: #8b5e34; }
+    .cannoli-item { background: white; border-radius: 10px; padding: 1rem; margin-bottom: 1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    form input, form textarea { width: 100%; padding: 0.6rem; margin-top: 0.4rem; border-radius: 6px; border: 1px solid #ccc; }
+    form button { background: #d4a373; color: white; border: none; padding: 0.8rem 1.6rem; border-radius: 6px; margin-top: 1rem; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cannolini</h1>
+    <p>Authentiques cannoli siciliens artisanaux</p>
+  </header>
+
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#cannoli">Nos cannoli</a>
+    <a href="#avis">Laisser un avis</a>
+    <a href="#inscription">S'inscrire</a>
+  </nav>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>Cannolini est un projet familial visant à proposer de véritables cannoli siciliens artisanaux, préparés chaque jour avec des ingrédients de qualité. Notre objectif est d'offrir une expérience authentique, généreuse et pleine de saveurs italiennes.</p>
+  </section>
+
+  <section id="cannoli">
+    <h2>Nos Cannoli</h2>
+    <div class="cannoli-item">
+      <h3>Ricotta traditionnelle</h3>
+      <p>Ricotta fraîche légèrement sucrée, éclats de chocolat, écorces d'orange.</p>
+    </div>
+    <div class="cannoli-item">
+      <h3>Pistache de Bronte</h3>
+      <p>Crème de pistache pure, coque croustillante garnie minute.</p>
+    </div>
+    <div class="cannoli-item">
+      <h3>Chocolat noir</h3>
+      <p>Crème chocolat intense, copeaux de cacao.</p>
+    </div>
+  </section>
+
+  <section id="avis">
+    <h2>Laisser un avis</h2>
+    <form>
+      <label>Votre nom :</label>
+      <input type="text" placeholder="Nom" />
+      <label>Votre avis :</label>
+      <textarea rows="4" placeholder="Votre message..."></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <section id="inscription">
+    <h2>S'inscrire</h2>
+    <p>Laissez votre email pour recevoir nos actualités et promotions :</p>
+    <form>
+      <label>Email :</label>
+      <input type="email" placeholder="Votre email" />
+      <button type="submit">S'inscrire</button>
+    </form>
+  </section>
+</body>
+</html>
