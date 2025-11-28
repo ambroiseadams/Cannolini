@@ -84,13 +84,14 @@
   <!-- AVIS -->
   <section id="avis" class="max-w-4xl mx-auto px-6 py-20">
     <h2 class="text-3xl font-bold mb-6 text-amber-700">Laisser un avis</h2>
-      <form action="https://formsubmit.co/TON_EMAIL" method="POST" class="grid gap-4 bg-white p-6 rounded-xl shadow-md">
+      <form action="https://formsubmit.co/ambroiseadams@gmail.com" method="POST" class="grid gap-4 bg-white p-6 rounded-xl shadow-md">
+
         <input type="text" name="nom" placeholder="Votre nom" class="border p-3 rounded" />
         <textarea name="avis" placeholder="Votre avis" rows="5" class="border p-3 rounded"></textarea>
-      
-        <!-- Anti-spam -->
+
         <input type="hidden" name="_captcha" value="false">
-      
+        <input type="hidden" name="_next" value="https://ambroiseadams.github.io/Cannolini/merci.html">
+
         <button class="bg-amber-600 text-white py-3 rounded hover:bg-amber-700">Envoyer</button>
       </form>
   </section>
@@ -99,15 +100,14 @@
   <section id="inscription" class="bg-gray-100 py-20">
     <div class="max-w-4xl mx-auto px-6">
       <h2 class="text-3xl font-bold mb-6 text-amber-700">S'inscrire</h2>
-        <form action="https://formsubmit.co/TON_EMAIL" method="POST" class="grid gap-4 bg-white p-6 rounded-xl shadow-md">
+        <form action="https://formsubmit.co/ambroiseadams@gmail.com" method="POST" class="grid gap-4 bg-white p-6 rounded-xl shadow-md">
+
           <input type="email" name="email" placeholder="Votre e-mail" class="border p-3 rounded" />
-        
-          <!-- Tag pour t’aider à trier -->
+
           <input type="hidden" name="_subject" value="Nouvelle inscription newsletter">
-        
-          <!-- Anti-spam -->
           <input type="hidden" name="_captcha" value="false">
-        
+          <input type="hidden" name="_next" value="https://ambroiseadams.github.io/Cannolini/merci.html">
+
           <button class="bg-amber-600 text-white py-3 rounded hover:bg-amber-700">S'inscrire</button>
         </form>
     </div>
@@ -121,4 +121,3 @@
   </footer>
 </body>
 </html>
-
